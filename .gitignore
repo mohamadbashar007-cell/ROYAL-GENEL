@@ -1,0 +1,13 @@
+.tmp/
+.npm-cache/
+desktop.png
+mobile.png
+mobile-top.png
+node_modules/
+.next/
+out/
+.env*
+!.env.example
+*.tsbuildinfo
+legacy-static/
+.vercel/
