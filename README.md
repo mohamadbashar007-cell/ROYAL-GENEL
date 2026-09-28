@@ -1,6 +1,6 @@
 # Royal Genel Overseas Trading
 
-A responsive, English-language website for Royal Genel Overseas Trading, built with **Next.js 16, React 19, and TypeScript**. It includes four pages, original brand imagery, SEO metadata, and a server-side inquiry endpoint.
+A responsive, English-language website for Royal Genel Overseas Trading, built with **Next.js 16, React 19, and TypeScript**. It includes four pages, original brand imagery, SEO metadata, and an optional server-side inquiry endpoint for Node hosting.
 
 ## Run locally
 
@@ -24,6 +24,14 @@ Quality checks:
 npm run typecheck
 npm run lint
 ```
+
+## GitHub Pages deployment
+
+The repository deploys automatically from `main` through `.github/workflows/deploy-pages.yml` to **https://mohamadbashar007-cell.github.io/ROYAL-GENEL/**. The workflow builds a static export in `out/`, adds the `/ROYAL-GENEL` base path for page and image URLs, and publishes the artifact with GitHub Pages Actions.
+
+GitHub Pages serves static files only. The deployed contact form therefore uses **Copy inquiry**; `/api/inquiry` is not included in the static export. A Node host is required to run that endpoint and send messages directly. For a separate Node deployment, use `npm run build` and `npm run start` with the email environment variables below.
+
+To reproduce the Pages build locally, set `GITHUB_PAGES=1`, `NEXT_PUBLIC_BASE_PATH=/ROYAL-GENEL`, and `NEXT_PUBLIC_SITE_URL=https://mohamadbashar007-cell.github.io/ROYAL-GENEL`, then run `npm run build:pages`. The build script also prepares Next.js route payload filenames for static hosting.
 
 ## Pages and code
 

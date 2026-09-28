@@ -4,10 +4,11 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import Link from 'next/link';
 import { ArrowLeft, ArrowRight, ArrowUpRight } from 'lucide-react';
+import { assetPath } from '@/lib/asset-path';
 
 const slides = [
   {
-    image: '/images/hero-ship.png',
+    image: assetPath('/images/hero-ship.png'),
     alt: 'Cargo ship and shipping containers at an Istanbul port at sunset',
     label: 'FROM ISTANBUL TO THE WORLD',
     title: <>Trade beyond<br /><em>borders.</em></>,
@@ -16,7 +17,7 @@ const slides = [
     action: 'Discover Royal Genel',
   },
   {
-    image: '/images/istanbul-crossroads.png',
+    image: assetPath('/images/istanbul-crossroads.png'),
     alt: 'Istanbul skyline on the Bosphorus with a cargo vessel at golden hour',
     label: 'BUILT AROUND CONNECTION',
     title: <>Good business<br /><em>goes further.</em></>,

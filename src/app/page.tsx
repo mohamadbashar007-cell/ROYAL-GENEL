@@ -4,6 +4,7 @@ import { ArrowUpRight, Compass, Globe2, Handshake, PackageCheck } from 'lucide-r
 import { CtaSection } from '@/components/cta-section';
 import { HeroCarousel } from '@/components/hero-carousel';
 import { Eyebrow, PillLink, TextLink } from '@/components/ui';
+import { assetPath } from '@/lib/asset-path';
 
 const services = [
   { number: '01', title: 'Market connections', description: 'Finding the right links between businesses, products, and new possibilities across borders.', Icon: Globe2 },
@@ -35,7 +36,7 @@ export default function HomePage() {
     </section>
 
     <section className="crossroads">
-      <div className="crossroads__image"><Image src="/images/containers.png" alt="Red and cream shipping containers at an international port" fill sizes="(max-width: 900px) 100vw, 52vw" /><span className="crossroads__image-tag">✦ &nbsp; A WORLD OF POSSIBILITIES</span></div>
+      <div className="crossroads__image"><Image src={assetPath('/images/containers.png')} alt="Red and cream shipping containers at an international port" fill sizes="(max-width: 900px) 100vw, 52vw" /><span className="crossroads__image-tag">✦ &nbsp; A WORLD OF POSSIBILITIES</span></div>
       <div className="crossroads__copy"><Eyebrow light>OUR APPROACH</Eyebrow><h2>Local roots.<br /><em>Global outlook.</em></h2><p>Istanbul has always been a meeting point for ideas and markets. We carry that spirit into the way we work: listening closely, finding the right connections, and staying focused on what moves your business ahead.</p><div className="crossroads__list"><span><b>01</b> Clear communication</span><span><b>02</b> Thoughtful coordination</span><span><b>03</b> Long-term relationships</span></div><PillLink href="/about" variant="outline">Explore our approach</PillLink></div>
     </section>
 

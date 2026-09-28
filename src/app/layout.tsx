@@ -2,6 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import type { ReactNode } from 'react';
 import { SiteHeader } from '@/components/site-header';
 import { SiteFooter } from '@/components/site-footer';
+import { assetPath } from '@/lib/asset-path';
 import './globals.css';
 
 const siteUrl = process.env.NEXT_PUBLIC_SITE_URL;
@@ -17,10 +18,10 @@ export const metadata: Metadata = {
     siteName: 'Royal Genel Overseas Trading',
     title: 'Royal Genel Overseas Trading | Trade Beyond Borders',
     description: 'Connecting opportunities across markets from Istanbul, Türkiye.',
-    images: [{ url: '/images/hero-ship.png', width: 1942, height: 809, alt: 'Cargo ship at an Istanbul port' }],
+    images: [{ url: assetPath('/images/hero-ship.png'), width: 1942, height: 809, alt: 'Cargo ship at an Istanbul port' }],
   },
   twitter: { card: 'summary_large_image' },
-  icons: { icon: '/favicon.svg' },
+  icons: { icon: assetPath('/favicon.svg') },
 };
 
 export const viewport: Viewport = { themeColor: '#a7122d', width: 'device-width', initialScale: 1 };
