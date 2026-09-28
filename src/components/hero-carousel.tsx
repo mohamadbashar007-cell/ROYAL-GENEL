@@ -8,7 +8,7 @@ import { assetPath } from '@/lib/asset-path';
 
 const slides = [
   {
-    image: assetPath('/images/hero-ship.png'),
+    image: assetPath('/images/hero-ship.webp'),
     alt: 'Cargo ship and shipping containers at an Istanbul port at sunset',
     label: 'FROM ISTANBUL TO THE WORLD',
     title: <>Trade beyond<br /><em>borders.</em></>,
@@ -17,7 +17,7 @@ const slides = [
     action: 'Discover Royal Genel',
   },
   {
-    image: assetPath('/images/istanbul-crossroads.png'),
+    image: assetPath('/images/istanbul-crossroads.webp'),
     alt: 'Istanbul skyline on the Bosphorus with a cargo vessel at golden hour',
     label: 'BUILT AROUND CONNECTION',
     title: <>Good business<br /><em>goes further.</em></>,

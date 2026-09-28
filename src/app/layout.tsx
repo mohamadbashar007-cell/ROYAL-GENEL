@@ -18,7 +18,7 @@ export const metadata: Metadata = {
     siteName: 'Royal Genel Overseas Trading',
     title: 'Royal Genel Overseas Trading | Trade Beyond Borders',
     description: 'Connecting opportunities across markets from Istanbul, Türkiye.',
-    images: [{ url: assetPath('/images/hero-ship.png'), width: 1942, height: 809, alt: 'Cargo ship at an Istanbul port' }],
+    images: [{ url: assetPath('/images/hero-ship.webp'), width: 1942, height: 809, alt: 'Cargo ship at an Istanbul port' }],
   },
   twitter: { card: 'summary_large_image' },
   icons: { icon: assetPath('/favicon.svg') },

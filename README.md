@@ -68,7 +68,7 @@ The public copy intentionally avoids invented company history, trade volumes, pa
 
 The four photographs in `public/images` were created for this project using the built-in image generation tool. Prompts used:
 
-- `hero-ship.png`: Premium editorial photograph of a cargo ship at an Istanbul port at golden hour, crimson container accents and calm space on the left for headline text; no logos or readable text.
-- `containers.png`: Premium editorial photograph of red, cream, and muted gold shipping containers at a sunlit port, geometric perspective and a partially open container with palletized goods; no logos or readable text.
-- `istanbul-crossroads.png`: Photorealistic Bosphorus panorama at golden hour with Istanbul domes and minarets, a cargo vessel and subtle distant port cranes; warm gold and deep burgundy, dark left third for copy; no text or logos.
-- `trade-detail.png`: Photorealistic close-up of export logistics with unbranded wrapped cartons, a burgundy container, and blank paperwork on a clipboard; warm side light and no readable text or logos.
+- `hero-ship.webp`: Premium editorial photograph of a cargo ship at an Istanbul port at golden hour, crimson container accents and calm space on the left for headline text; no logos or readable text.
+- `containers.webp`: Premium editorial photograph of red, cream, and muted gold shipping containers at a sunlit port, geometric perspective and a partially open container with palletized goods; no logos or readable text.
+- `istanbul-crossroads.webp`: Photorealistic Bosphorus panorama at golden hour with Istanbul domes and minarets, a cargo vessel and subtle distant port cranes; warm gold and deep burgundy, dark left third for copy; no text or logos.
+- `trade-detail.webp`: Photorealistic close-up of export logistics with unbranded wrapped cartons, a burgundy container, and blank paperwork on a clipboard; warm side light and no readable text or logos.
